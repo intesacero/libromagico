@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68BB1C51524E4BD00BC5A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C41524E4BD00BC5A33 /* UIKit.framework */; };
+		C68BB1C71524E4BD00BC5A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C61524E4BD00BC5A33 /* Foundation.framework */; };
+		C68BB1C91524E4BD00BC5A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C81524E4BD00BC5A33 /* CoreGraphics.framework */; };
+		C68BB1CF1524E4BD00BC5A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1CD1524E4BD00BC5A33 /* InfoPlist.strings */; };
+		C68BB1D11524E4BD00BC5A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D01524E4BD00BC5A33 /* main.m */; };
+		C68BB1D51524E4BD00BC5A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */; };
+		C68BB1D81524E4BD00BC5A33 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */; };
+		C68BB1DB1524E4BD00BC5A33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */; };
+		C68BB1DE1524E4BD00BC5A33 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */; };
+		C68BB1E11524E4BD00BC5A33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C68BB1C01524E4BD00BC5A33 /* libromagico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libromagico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BB1C41524E4BD00BC5A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C68BB1C61524E4BD00BC5A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C68BB1C81524E4BD00BC5A33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C68BB1CC1524E4BD00BC5A33 /* libromagico-Info.plist */ = {isa = PBXFileReference; path = "libromagico-Info.plist"; sourceTree = "<group>"; };
+		C68BB1CE1524E4BD00BC5A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68BB1D01524E4BD00BC5A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68BB1D21524E4BD00BC5A33 /* libromagico-Prefix.pch */ = {isa = PBXFileReference; path = "libromagico-Prefix.pch"; sourceTree = "<group>"; };
+		C68BB1D31524E4BD00BC5A33 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C68BB1D61524E4BD00BC5A33 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C68BB1D91524E4BD00BC5A33 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C68BB1DD1524E4BD00BC5A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		C68BB1E01524E4BD00BC5A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68BB1BD1524E4BD00BC5A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BB1C51524E4BD00BC5A33 /* UIKit.framework in Frameworks */,
+				C68BB1C71524E4BD00BC5A33 /* Foundation.framework in Frameworks */,
+				C68BB1C91524E4BD00BC5A33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68BB1B51524E4BD00BC5A33 = {
+			isa = PBXGroup;
+			children = (
+				C68BB1CA1524E4BD00BC5A33 /* libromagico */,
+				C68BB1C31524E4BD00BC5A33 /* Frameworks */,
+				C68BB1C11524E4BD00BC5A33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68BB1C11524E4BD00BC5A33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68BB1C01524E4BD00BC5A33 /* libromagico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68BB1C31524E4BD00BC5A33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68BB1C41524E4BD00BC5A33 /* UIKit.framework */,
+				C68BB1C61524E4BD00BC5A33 /* Foundation.framework */,
+				C68BB1C81524E4BD00BC5A33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68BB1CA1524E4BD00BC5A33 /* libromagico */ = {
+			isa = PBXGroup;
+			children = (
+				C68BB1D31524E4BD00BC5A33 /* AppDelegate.h */,
+				C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */,
+				C68BB1D61524E4BD00BC5A33 /* MasterViewController.h */,
+				C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */,
+				C68BB1D91524E4BD00BC5A33 /* DetailViewController.h */,
+				C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */,
+				C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */,
+				C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */,
+				C68BB1CB1524E4BD00BC5A33 /* Supporting Files */,
+			);
+			path = libromagico;
+			sourceTree = "<group>";
+		};
+		C68BB1CB1524E4BD00BC5A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68BB1CC1524E4BD00BC5A33 /* libromagico-Info.plist */,
+				C68BB1CD1524E4BD00BC5A33 /* InfoPlist.strings */,
+				C68BB1D01524E4BD00BC5A33 /* main.m */,
+				C68BB1D21524E4BD00BC5A33 /* libromagico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68BB1BF1524E4BD00BC5A33 /* libromagico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68BB1E41524E4BD00BC5A33 /* Build configuration list for PBXNativeTarget "libromagico" */;
+			buildPhases = (
+				C68BB1BC1524E4BD00BC5A33 /* Sources */,
+				C68BB1BD1524E4BD00BC5A33 /* Frameworks */,
+				C68BB1BE1524E4BD00BC5A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libromagico;
+			productName = libromagico;
+			productReference = C68BB1C01524E4BD00BC5A33 /* libromagico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68BB1B71524E4BD00BC5A33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "INDUSTRIA TRANSFORMADORA ESPECIA SL";
+			};
+			buildConfigurationList = C68BB1BA1524E4BD00BC5A33 /* Build configuration list for PBXProject "libromagico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C68BB1B51524E4BD00BC5A33;
+			productRefGroup = C68BB1C11524E4BD00BC5A33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68BB1BF1524E4BD00BC5A33 /* libromagico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68BB1BE1524E4BD00BC5A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BB1CF1524E4BD00BC5A33 /* InfoPlist.strings in Resources */,
+				C68BB1DE1524E4BD00BC5A33 /* MasterViewController.xib in Resources */,
+				C68BB1E11524E4BD00BC5A33 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68BB1BC1524E4BD00BC5A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BB1D11524E4BD00BC5A33 /* main.m in Sources */,
+				C68BB1D51524E4BD00BC5A33 /* AppDelegate.m in Sources */,
+				C68BB1D81524E4BD00BC5A33 /* MasterViewController.m in Sources */,
+				C68BB1DB1524E4BD00BC5A33 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68BB1CD1524E4BD00BC5A33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BB1CE1524E4BD00BC5A33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BB1DD1524E4BD00BC5A33 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BB1E01524E4BD00BC5A33 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68BB1E21524E4BD00BC5A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C68BB1E31524E4BD00BC5A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68BB1E51524E4BD00BC5A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libromagico/libromagico-Prefix.pch";
+				INFOPLIST_FILE = "libromagico/libromagico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C68BB1E61524E4BD00BC5A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libromagico/libromagico-Prefix.pch";
+				INFOPLIST_FILE = "libromagico/libromagico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68BB1BA1524E4BD00BC5A33 /* Build configuration list for PBXProject "libromagico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BB1E21524E4BD00BC5A33 /* Debug */,
+				C68BB1E31524E4BD00BC5A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68BB1E41524E4BD00BC5A33 /* Build configuration list for PBXNativeTarget "libromagico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BB1E51524E4BD00BC5A33 /* Debug */,
+				C68BB1E61524E4BD00BC5A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68BB1B71524E4BD00BC5A33 /* Project object */;
+}
