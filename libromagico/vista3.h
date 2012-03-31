@@ -28,7 +28,7 @@
 - (IBAction)irvista2:(id)sender;
 - (IBAction)touchbombilla:(id)sender;
 
-//-(void)ejecutarSonido;
+-(void)ejecutarSonido;
 
 
 @end

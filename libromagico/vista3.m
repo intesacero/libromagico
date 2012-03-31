@@ -35,7 +35,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-     //  [self ejecutarSonido];
+   // [self ejecutarSonido];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -59,7 +59,7 @@
 }
 
 - (IBAction)touchbombilla:(id)sender {
-    
+      [self ejecutarSonido];
     continuarAnimacion=0;
     
     //Cuando tocamos el elemento, dentro tiene un imageview,
@@ -72,14 +72,30 @@
                                             [UIImage imageNamed:@"bombillaof.png"],
                                             [UIImage imageNamed:@"bombillaon.png"],nil];
     //cuantas veces repetimos la animacion
-    bombilla.imageView.animationRepeatCount = 15;
+    bombilla.imageView.animationRepeatCount = 20;
     //cuanto dura la animacion de las imagenes
     bombilla.imageView.animationDuration = 0.5;
     [bombilla.imageView startAnimating];
+    // [self ejecutarSonido];
     
    // [self animararribaBirdYellow];
     
+}
+
+-(void)ejecutarSonido
+{
+    NSURL *url=[[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] 
+                                                  pathForResource:@"electricidad1" ofType:@"wav"] ];
+    audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];    
+    audioPlayer.volume=1;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
     
+    
+    
+    
+
+   
 
     
 }
