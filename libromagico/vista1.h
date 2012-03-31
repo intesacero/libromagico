@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface vista1 : UIViewController
+- (IBAction)irvista2:(id)sender;
 
 @end

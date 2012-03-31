@@ -1,22 +1,19 @@
 //
-//  vista1.m
+//  vista2.m
 //  libromagico
 //
-//  Created by INDUSTRIA TRANSF. ESPECIAL SL on 30/03/12.
+//  Created by INDUSTRIA TRANSF. ESPECIAL SL on 31/03/12.
 //  Copyright (c) 2012 INDUSTRIA TRANSFORMADORA ESPECIA SL. All rights reserved.
 //
 
-
-
-/* esta es la vista inicial en ella se ha de cargar un sondido que se repita durante toda la aplicación, independientemente de otros que puedan ir surgiendo. La idea es que dure al menos un par de minutos */
-
-#import "vista1.h"
 #import "vista2.h"
-@interface vista1 ()
+#import "vista1.h"
+#import "vista3.h"
+@interface vista2 ()
 
 @end
 
-@implementation vista1
+@implementation vista2
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,10 +42,14 @@
 	return YES;
 }
 
-- (IBAction)irvista2:(id)sender {
-    
-    vista2 *v1=[[vista2 alloc] initWithNibName:@"vista2" bundle:nil];
+- (IBAction)irvista1:(id)sender {
+    vista1 *v1=[[vista1 alloc] initWithNibName:@"vista1" bundle:nil];
     [self.navigationController pushViewController:v1 animated:YES];
-    
+
+}
+
+- (IBAction)irvista3:(id)sender {
+    vista3 *v1=[[vista3 alloc] initWithNibName:@"vista3" bundle:nil];
+    [self.navigationController pushViewController:v1 animated:YES];
 }
 @end
