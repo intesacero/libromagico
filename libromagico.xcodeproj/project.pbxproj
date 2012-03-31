@@ -23,6 +23,7 @@
 		C689B8BB1527642400D6CA55 /* electricidad1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C689B8BA1527642400D6CA55 /* electricidad1.wav */; };
 		C689B8BD1527644400D6CA55 /* electricidad_sparks_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = C689B8BC1527644400D6CA55 /* electricidad_sparks_5.wav */; };
 		C689B8BF152767E500D6CA55 /* electricidad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C689B8BE152767E500D6CA55 /* electricidad.mp3 */; };
+		C689B8C31527738400D6CA55 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C689B8C21527738400D6CA55 /* intro.mp3 */; };
 		C68BB1C51524E4BD00BC5A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C41524E4BD00BC5A33 /* UIKit.framework */; };
 		C68BB1C71524E4BD00BC5A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C61524E4BD00BC5A33 /* Foundation.framework */; };
 		C68BB1C91524E4BD00BC5A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C81524E4BD00BC5A33 /* CoreGraphics.framework */; };
@@ -51,6 +52,7 @@
 		C689B8BA1527642400D6CA55 /* electricidad1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricidad1.wav; sourceTree = "<group>"; };
 		C689B8BC1527644400D6CA55 /* electricidad_sparks_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricidad_sparks_5.wav; sourceTree = "<group>"; };
 		C689B8BE152767E500D6CA55 /* electricidad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electricidad.mp3; sourceTree = "<group>"; };
+		C689B8C21527738400D6CA55 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
 		C68BB1C01524E4BD00BC5A33 /* libromagico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libromagico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68BB1C41524E4BD00BC5A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C68BB1C61524E4BD00BC5A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				C689B8981526D52A00D6CA55 /* Ninja.jpg */,
+				C689B8C21527738400D6CA55 /* intro.mp3 */,
 				C689B8BA1527642400D6CA55 /* electricidad1.wav */,
 				C689B8BE152767E500D6CA55 /* electricidad.mp3 */,
 				C689B8BC1527644400D6CA55 /* electricidad_sparks_5.wav */,
@@ -209,6 +212,7 @@
 				C689B8BB1527642400D6CA55 /* electricidad1.wav in Resources */,
 				C689B8BD1527644400D6CA55 /* electricidad_sparks_5.wav in Resources */,
 				C689B8BF152767E500D6CA55 /* electricidad.mp3 in Resources */,
+				C689B8C31527738400D6CA55 /* intro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

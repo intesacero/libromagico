@@ -12,6 +12,10 @@
 
 #import "vista1.h"
 #import "vista2.h"
+#import <AVFoundation/AVFoundation.h>
+
+
+
 @interface vista1 ()
 
 @end
@@ -30,6 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self ejecutarSonidoIntro];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -51,4 +56,25 @@
     [self.navigationController pushViewController:v1 animated:YES];
     
 }
+
+-(void)ejecutarSonidoIntro
+{
+    NSURL *url=[[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] 
+                                                  pathForResource:@"intro" ofType:@"mp3"] ];
+    audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];    
+    audioPlayer.volume=0.5;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
 @end

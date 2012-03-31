@@ -7,8 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface vista1 : UIViewController
+
+{
+    BOOL continuarAnimacion;
+    
+    NSTimer *timer;//timer, temporizador.
+    CGRect projectileFrame;
+    CGPoint actualPointBall2;// punto actual donde hemos tocado.
+    AVAudioPlayer *audioPlayer; //Declarar una variable
+    
+}
+
+
+
 - (IBAction)irvista2:(id)sender;
+
+-(void)ejecutarSonidoIntro;
 
 @end

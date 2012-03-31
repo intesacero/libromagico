@@ -36,12 +36,11 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUILabel" id="215379113">
+					<object class="IBUILabel" id="740894452">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{119, 129}, {554, 510}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -50,27 +49,29 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<object class="NSMutableString" key="IBUIText">
 							<bytes key="NS.bytes">RXN0YSBwYWdpbmEgY29udGllbmUgdGV4dG8sIGJvdG9uZXMsIGFuaW1hY2lvbmVzIHkgc29uaWRv4oCo
-4oCo4oCo4oCoICAgICAgRW4gdW4gbHVnYXIgZGUgbGEgTWFuY2hhLCBkZSBjdXlvIG5vbWJyZSBubyBx
-dWllcm8gYWNvcmRhcm1lLCBubyBoYSBtdWNobyB0aWVtcG8gcXVlIHZpdsOtYSB1biBoaWRhbGdvIGRl
-IGxvcyBkZSBsYW56YSBlbiBhc3RpbGxlcm8gYWRhcmdhIGFudGlndWEsIHJvY8OtbiBmbGFjbyB5IGdh
-bGdvIGNvcnJlZG9yLiBVbmEgb2xsYSBkZSBhbGdvIG3DoXMgdmFjYSBxdWUgY2FybmVybywgc2FscGlj
-w7NuIGxhcyBtw6FzIG5vY2hlcywgZHVlbG9zIHkgcXVlYnJhbnRvcyBsb3Mgc8OhYmFkb3MsIGxhbnRl
-amFzIGxvcyB2aWVybmVzLCBhbGfDum4gcGFsb21pbm8gZGUgYcOxYWRpZHVyYSBsb3MgZG9taW5nb3Ms
-IGNvbnN1bcOtYW4gbGFzIHRyZXMgcGFydGVzIGRlIHN1IGhhY2llbmRhLiBFbCByZXN0byBkZWxsYSBj
-b25jbHXDrWFuIHNheW8gZGUgdmVsYXJ0ZSwgY2FsemFzIGRlIHZlbGx1ZG8gcGFyYSBsYXMgZmllc3Rh
-cywgY29uIHN1cyBwYW50dWZsb3MgZGUgbG8gbWVzbW8sIHkgbG9zIGTDrWFzIGRlIGVudHJlc2VtYW5h
-IHNlIGhvbnJhYmEgY29uIHN1IHZlbGxvcsOtIGRlIGxvIG3DoXMgZmluby4KClRlbsOtYSBlbiBzdSBj
-YXNhIHVuYSBhbWEgcXVlIHBhc2FiYSBkZSBsb3MgY3VhcmVudGEsIHkgdW5hIHNvYnJpbmEgcXVlIG5v
-IGxsZWdhYmEgYSBsb3MgdmVpbnRlLCB5IHVuIG1vem8gZGUgY2FtcG8geSBwbGF6YSwgcXVlIGFzw60g
-ZW5zaWxsYWJhIGVsIHJvY8OtbiBjb21vIHRvbWFiYSBsYSBwb2RhZGVyYS4gRnJpc2FiYSBsYSBlZGFk
-IGRlIG51ZXN0cm8gaGlkYWxnbyBjb24gbG9zIGNpbmN1ZW50YSBhw7FvczsgZXJhIGRlIGNvbXBsZXhp
-w7NuIHJlY2lhLCBzZWNvIGRlIGNhcm5lcywgZW5qdXRvIGRlIHJvc3RybywgZ3JhbiBtYWRydWdhZG9y
-IHkgYW1pZ28gZGUgbGEgY2F6YS4gUXVpZXJlbiBkZWNpciBxdWUgdGVuw61hIGVsIHNvYnJlbm9tYnJl
-IGRlIFF1aWphZGEsIG8gUXVlc2FkYSwgcXVlIGVuIGVzdG8gaGF5IGFsZ3VuYSBkaWZlcmVuY2lhIGVu
-IGxvcyBhdXRvcmVzIHF1ZSBkZXN0ZSBjYXNvIGVzY3JpYmVuOyBhdW5xdWUsIHBvciBjb25qZXR1cmFz
-IHZlcm9zw61taWxlcywgc2UgZGVqYSBlbnRlbmRlciBxdWUgc2UgbGxhbWFiYSBRdWVqYW5hLiBQZXJv
-IGVzdG8gaW1wb3J0YSBwb2NvIGEgbnVlc3RybyBjdWVudG87IGJhc3RhIHF1ZSBlbiBsYSBuYXJyYWNp
-w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
+4oCoTm8gc2UgY29tbyBwdWVkbyBoYWNlciBwYXJhIHF1ZSBzZSBlamVjdXRlIGxhIGFuaW1hY2nDs24g
+c2luIHF1ZSB5byB0ZW5nYSBxdWUgdG9jYXIgZWwgYm90w7NuLCB0ZW5lciBsYXMgZG9zIG9wY2lvbmVz
+LuKAqOKAqOKAqOKAqCAgICAgIEVuIHVuIGx1Z2FyIGRlIGxhIE1hbmNoYSwgZGUgY3V5byBub21icmUg
+bm8gcXVpZXJvIGFjb3JkYXJtZSwgbm8gaGEgbXVjaG8gdGllbXBvIHF1ZSB2aXbDrWEgdW4gaGlkYWxn
+byBkZSBsb3MgZGUgbGFuemEgZW4gYXN0aWxsZXJvIGFkYXJnYSBhbnRpZ3VhLCByb2PDrW4gZmxhY28g
+eSBnYWxnbyBjb3JyZWRvci4gVW5hIG9sbGEgZGUgYWxnbyBtw6FzIHZhY2EgcXVlIGNhcm5lcm8sIHNh
+bHBpY8OzbiBsYXMgbcOhcyBub2NoZXMsIGR1ZWxvcyB5IHF1ZWJyYW50b3MgbG9zIHPDoWJhZG9zLCBs
+YW50ZWphcyBsb3Mgdmllcm5lcywgYWxnw7puIHBhbG9taW5vIGRlIGHDsWFkaWR1cmEgbG9zIGRvbWlu
+Z29zLCBjb25zdW3DrWFuIGxhcyB0cmVzIHBhcnRlcyBkZSBzdSBoYWNpZW5kYS4gRWwgcmVzdG8gZGVs
+bGEgY29uY2x1w61hbiBzYXlvIGRlIHZlbGFydGUsIGNhbHphcyBkZSB2ZWxsdWRvIHBhcmEgbGFzIGZp
+ZXN0YXMsIGNvbiBzdXMgcGFudHVmbG9zIGRlIGxvIG1lc21vLCB5IGxvcyBkw61hcyBkZSBlbnRyZXNl
+bWFuYSBzZSBob25yYWJhIGNvbiBzdSB2ZWxsb3LDrSBkZSBsbyBtw6FzIGZpbm8uCgpUZW7DrWEgZW4g
+c3UgY2FzYSB1bmEgYW1hIHF1ZSBwYXNhYmEgZGUgbG9zIGN1YXJlbnRhLCB5IHVuYSBzb2JyaW5hIHF1
+ZSBubyBsbGVnYWJhIGEgbG9zIHZlaW50ZSwgeSB1biBtb3pvIGRlIGNhbXBvIHkgcGxhemEsIHF1ZSBh
+c8OtIGVuc2lsbGFiYSBlbCByb2PDrW4gY29tbyB0b21hYmEgbGEgcG9kYWRlcmEuIEZyaXNhYmEgbGEg
+ZWRhZCBkZSBudWVzdHJvIGhpZGFsZ28gY29uIGxvcyBjaW5jdWVudGEgYcOxb3M7IGVyYSBkZSBjb21w
+bGV4acOzbiByZWNpYSwgc2VjbyBkZSBjYXJuZXMsIGVuanV0byBkZSByb3N0cm8sIGdyYW4gbWFkcnVn
+YWRvciB5IGFtaWdvIGRlIGxhIGNhemEuIFF1aWVyZW4gZGVjaXIgcXVlIHRlbsOtYSBlbCBzb2JyZW5v
+bWJyZSBkZSBRdWlqYWRhLCBvIFF1ZXNhZGEsIHF1ZSBlbiBlc3RvIGhheSBhbGd1bmEgZGlmZXJlbmNp
+YSBlbiBsb3MgYXV0b3JlcyBxdWUgZGVzdGUgY2FzbyBlc2NyaWJlbjsgYXVucXVlLCBwb3IgY29uamV0
+dXJhcyB2ZXJvc8OtbWlsZXMsIHNlIGRlamEgZW50ZW5kZXIgcXVlIHNlIGxsYW1hYmEgUXVlamFuYS4g
+UGVybyBlc3RvIGltcG9ydGEgcG9jbyBhIG51ZXN0cm8gY3VlbnRvOyBiYXN0YSBxdWUgZW4gbGEgbmFy
+cmFjacOzbiBkw6lsIG5vIHNlIHNhbGdhIHVuIHB1bnRvIGRlIGxhIHZlcmRhZC4</bytes>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -90,19 +91,18 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="479630048">
+					<object class="IBUIButton" id="901037085">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">265</int>
 						<string key="NSFrame">{{597, 871}, {99, 50}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">continuar</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="155699559">
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="860684374">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -110,7 +110,7 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="974406900">
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="832651706">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
@@ -118,71 +118,68 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">arrowlineright.png</string>
 						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="655963282">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="689006823">
 							<int key="type">2</int>
 							<double key="pointSize">15</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="10875257">
+						<object class="NSFont" key="IBUIFont" id="119133256">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="201695458">
+					<object class="IBUIButton" id="591390982">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">265</int>
 						<string key="NSFrame">{{119, 858}, {99, 50}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">continuar</string>
-						<reference key="IBUIHighlightedTitleColor" ref="155699559"/>
+						<reference key="IBUIHighlightedTitleColor" ref="860684374"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="974406900"/>
+						<reference key="IBUINormalTitleShadowColor" ref="832651706"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">arrowlineleft.png</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="655963282"/>
-						<reference key="IBUIFont" ref="10875257"/>
+						<reference key="IBUIFontDescription" ref="689006823"/>
+						<reference key="IBUIFont" ref="119133256"/>
 					</object>
-					<object class="IBUIButton" id="709179430">
+					<object class="IBUIButton" id="683819010">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{294, 661}, {139, 138}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">bombilla</string>
-						<reference key="IBUIHighlightedTitleColor" ref="155699559"/>
+						<reference key="IBUIHighlightedTitleColor" ref="860684374"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="974406900"/>
-						<object class="NSCustomResource" key="IBUINormalImage" id="188730329">
+						<reference key="IBUINormalTitleShadowColor" ref="832651706"/>
+						<object class="NSCustomResource" key="IBUINormalImage" id="732099685">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">bombillaof.png</string>
 						</object>
-						<reference key="IBUINormalBackgroundImage" ref="188730329"/>
-						<reference key="IBUIFontDescription" ref="655963282"/>
-						<reference key="IBUIFont" ref="10875257"/>
+						<reference key="IBUINormalBackgroundImage" ref="732099685"/>
+						<reference key="IBUIFontDescription" ref="689006823"/>
+						<reference key="IBUIFont" ref="119133256"/>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -211,14 +208,14 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">bombilla</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="709179430"/>
+						<reference key="destination" ref="683819010"/>
 					</object>
 					<int key="connectionID">11</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">irvista2:</string>
-						<reference key="source" ref="201695458"/>
+						<reference key="source" ref="591390982"/>
 						<reference key="destination" ref="841351856"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -227,7 +224,7 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">touchbombilla:</string>
-						<reference key="source" ref="709179430"/>
+						<reference key="source" ref="683819010"/>
 						<reference key="destination" ref="841351856"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -257,31 +254,31 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 						<int key="objectID">2</int>
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="479630048"/>
-							<reference ref="201695458"/>
-							<reference ref="215379113"/>
-							<reference ref="709179430"/>
+							<reference ref="901037085"/>
+							<reference ref="591390982"/>
+							<reference ref="740894452"/>
+							<reference ref="683819010"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="215379113"/>
+						<reference key="object" ref="740894452"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="479630048"/>
+						<reference key="object" ref="901037085"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="201695458"/>
+						<reference key="object" ref="591390982"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="709179430"/>
+						<reference key="object" ref="683819010"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 				</array>
@@ -303,43 +300,7 @@ w7NuIGTDqWwgbm8gc2Ugc2FsZ2EgdW4gcHVudG8gZGUgbGEgdmVyZGFkLg</bytes>
 			<nil key="sourceID"/>
 			<int key="maxID">11</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">vista3</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="irvista2:">id</string>
-						<string key="touchbombilla:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="irvista2:">
-							<string key="name">irvista2:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="touchbombilla:">
-							<string key="name">touchbombilla:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">bombilla</string>
-						<string key="NS.object.0">UIButton</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">bombilla</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">bombilla</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/vista3.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">

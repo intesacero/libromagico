@@ -35,7 +35,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   // [self ejecutarSonido];
+  
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -62,6 +62,7 @@
       [self ejecutarSonido];
     continuarAnimacion=0;
     
+    
     //Cuando tocamos el elemento, dentro tiene un imageview,
     //el cual puede añadirsele unc onjunto de imagenes, las cuales se deben programar
     //de tal manera que cierren la animacion
@@ -87,7 +88,7 @@
     NSURL *url=[[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] 
                                                   pathForResource:@"electricidad1" ofType:@"wav"] ];
     audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];    
-    audioPlayer.volume=1;
+    audioPlayer.volume=0.5;
     [audioPlayer prepareToPlay];
     [audioPlayer play];
     
