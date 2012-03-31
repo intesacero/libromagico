@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C689B8951525D05800D6CA55 /* vista1.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B8931525D05800D6CA55 /* vista1.m */; };
+		C689B8961525D05800D6CA55 /* vista1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B8941525D05800D6CA55 /* vista1.xib */; };
+		C689B8991526D52A00D6CA55 /* Ninja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C689B8981526D52A00D6CA55 /* Ninja.jpg */; };
 		C68BB1C51524E4BD00BC5A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C41524E4BD00BC5A33 /* UIKit.framework */; };
 		C68BB1C71524E4BD00BC5A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C61524E4BD00BC5A33 /* Foundation.framework */; };
 		C68BB1C91524E4BD00BC5A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BB1C81524E4BD00BC5A33 /* CoreGraphics.framework */; };
 		C68BB1CF1524E4BD00BC5A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1CD1524E4BD00BC5A33 /* InfoPlist.strings */; };
 		C68BB1D11524E4BD00BC5A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D01524E4BD00BC5A33 /* main.m */; };
 		C68BB1D51524E4BD00BC5A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */; };
-		C68BB1D81524E4BD00BC5A33 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */; };
-		C68BB1DB1524E4BD00BC5A33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */; };
-		C68BB1DE1524E4BD00BC5A33 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */; };
-		C68BB1E11524E4BD00BC5A33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C689B8921525D05800D6CA55 /* vista1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vista1.h; sourceTree = "<group>"; };
+		C689B8931525D05800D6CA55 /* vista1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vista1.m; sourceTree = "<group>"; };
+		C689B8941525D05800D6CA55 /* vista1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vista1.xib; sourceTree = "<group>"; };
+		C689B8981526D52A00D6CA55 /* Ninja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ninja.jpg; sourceTree = "<group>"; };
 		C68BB1C01524E4BD00BC5A33 /* libromagico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libromagico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68BB1C41524E4BD00BC5A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C68BB1C61524E4BD00BC5A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,12 +33,6 @@
 		C68BB1D21524E4BD00BC5A33 /* libromagico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libromagico-Prefix.pch"; sourceTree = "<group>"; };
 		C68BB1D31524E4BD00BC5A33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C68BB1D61524E4BD00BC5A33 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C68BB1D91524E4BD00BC5A33 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C68BB1DD1524E4BD00BC5A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		C68BB1E01524E4BD00BC5A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +81,9 @@
 			children = (
 				C68BB1D31524E4BD00BC5A33 /* AppDelegate.h */,
 				C68BB1D41524E4BD00BC5A33 /* AppDelegate.m */,
-				C68BB1D61524E4BD00BC5A33 /* MasterViewController.h */,
-				C68BB1D71524E4BD00BC5A33 /* MasterViewController.m */,
-				C68BB1D91524E4BD00BC5A33 /* DetailViewController.h */,
-				C68BB1DA1524E4BD00BC5A33 /* DetailViewController.m */,
-				C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */,
-				C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */,
+				C689B8921525D05800D6CA55 /* vista1.h */,
+				C689B8931525D05800D6CA55 /* vista1.m */,
+				C689B8941525D05800D6CA55 /* vista1.xib */,
 				C68BB1CB1524E4BD00BC5A33 /* Supporting Files */,
 			);
 			path = libromagico;
@@ -98,6 +92,7 @@
 		C68BB1CB1524E4BD00BC5A33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C689B8981526D52A00D6CA55 /* Ninja.jpg */,
 				C68BB1CC1524E4BD00BC5A33 /* libromagico-Info.plist */,
 				C68BB1CD1524E4BD00BC5A33 /* InfoPlist.strings */,
 				C68BB1D01524E4BD00BC5A33 /* main.m */,
@@ -158,8 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68BB1CF1524E4BD00BC5A33 /* InfoPlist.strings in Resources */,
-				C68BB1DE1524E4BD00BC5A33 /* MasterViewController.xib in Resources */,
-				C68BB1E11524E4BD00BC5A33 /* DetailViewController.xib in Resources */,
+				C689B8961525D05800D6CA55 /* vista1.xib in Resources */,
+				C689B8991526D52A00D6CA55 /* Ninja.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +167,7 @@
 			files = (
 				C68BB1D11524E4BD00BC5A33 /* main.m in Sources */,
 				C68BB1D51524E4BD00BC5A33 /* AppDelegate.m in Sources */,
-				C68BB1D81524E4BD00BC5A33 /* MasterViewController.m in Sources */,
-				C68BB1DB1524E4BD00BC5A33 /* DetailViewController.m in Sources */,
+				C689B8951525D05800D6CA55 /* vista1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,22 +182,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C68BB1DC1524E4BD00BC5A33 /* MasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C68BB1DD1524E4BD00BC5A33 /* en */,
-			);
-			name = MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		C68BB1DF1524E4BD00BC5A33 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C68BB1E01524E4BD00BC5A33 /* en */,
-			);
-			name = DetailViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -213,7 +191,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -239,7 +217,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -295,6 +273,7 @@
 				C68BB1E61524E4BD00BC5A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
